@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test project</title>
+    <!-- Link Swiper's CSS -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav__row">
+          <div class="logo">
+            <img src="./img/logo.png" alt="" />
+          </div>
+          <div class="navigation">
+            <ul>
+              <li><a href="#">Lorem</a></li>
+              <li><a href="#">Ipsum</a></li>
+              <li><a href="#">Simply</a></li>
+              <li><a href="#">Dummy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="header__top">
+        <div class="content">
+          <h1>Lorem Ipsum is simply</h1>
+        </div>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <div class="header__text">
+            <h1 class="header__title">
+              Lorem Ipsum is simply dummy text of the printing
+            </h1>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
+            </p>
+
+            <button class="form__button">Lorem Ipsum</button>
+          </div>
+
+          <div class="header__list">
+            <ul>
+               <li><img class="header__img-list" src="/img/ellipse.png" alt=""><p>It is a long established fact that a reader</p></li>
+                <li><img class="header__img-list" src="/img/ellipse.png" alt=""><p>The point of using Lorem Ipsum is that</p></li>
+                <li><img class="header__img-list" src="/img/ellipse.png" alt=""><p>Many desktop publishing packages</p></li>
+                <li><img class="header__img-list" src="/img/ellipse.png" alt=""><p>There are many variations of passages</p></li>
+            </ul>
+          </div>
+          <div class="header__img">
+            <img src="./img/bg1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Slider main container -->
+    <section class="testimonial">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./img/Ellipse-4.png" alt="" />
+            <h2>Lorem Ipsum</h2>
+            
+            <ul class="swiper-slider-title">
+              <li>
+                It is a long established fact that a reader will be distracted
+              </li>
+              <li>The readable content</li>
+              <li>There are many variations of passages</li>
+            </ul>
+        
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Ellipse-4.png" alt="" />
+            <h2>Lorem Ipsum</h2>
+            <ul class="swiper-slider-title">
+              <li>
+                It is a long established fact that a reader will be distracted
+              </li>
+              <li>The readable content</li>
+              <li>There are many variations of passages</li>
+            </ul>
+          </div>
+          <div class="swiper-slide">  
+            <img src="./img/Ellipse-4.png" alt="" />
+            <h2>Lorem Ipsum</h2>
+            
+            <ul class="swiper-slider-title">
+              <li>
+                It is a long established fact that a reader will be distracted
+              </li>
+              <li>The readable content</li>
+              <li>There are many variations of passages</li>
+            </ul>
+       
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+  
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+  
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </section>
+
+    <!-- <section class="testimonial">
+    <div class="container">
+
+        <div class="prev-next-buttons">
+            <a  class="prev-button"><img src="./img/arrow-right.svg" alt=""></a>
+            <a  class="next-button"><img src="./img/arrow-left.svg" alt=""></a>
+        </div>
+
+        <div class="testimonial__heading">
+            <h2 class="testimonial__title">Lorem</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <a href="#!" class="card-testimonial">
+                <img class="card-testimonial__img" src="./img/testimonial-img.png" alt="">
+                <h3 class="testimonial-name">Lorem Ipsum</h3>
+                <div class="card-testimonial__body">
+                <p><img src="./img/circle-blue.svg" alt="img">It is a long established fact that a reader will be distracted</p>
+                <p><img src="./img/circle-blue.svg" alt="img">The readable content</p>
+                <p><img src="./img/circle-blue.svg" alt="img">There are many variations of passages</p>
+            </div>
+            </a>
+        </div>
+
+        <div class="testimonial__row fade">
+            <a href="#!" class="card-testimonial">
+                <img class="card-testimonial__img" src="./img/testimonial-img.png" alt="">
+                <h3 class="testimonial-name">Lorem Ipsum</h3>
+                <div class="card-testimonial__body">
+                <p><img src="./img/circle-blue.svg" alt="img">It is a long established fact that a reader will be distracted</p>
+                <p><img src="./img/circle-blue.svg" alt="img">The readable content</p>
+                <p><img src="./img/circle-blue.svg" alt="img">There are many variations of passages</p>
+            </div>
+            </a>
+        </div>
+
+        <div class="testimonial__row fade">
+            <a href="#!" class="card-testimonial">
+                <img class="card-testimonial__img" src="./img/testimonial-img.png" alt="">
+                <h3 class="testimonial-name">Lorem Ipsum</h3>
+                <div class="card-testimonial__body">
+                    <p><img src="./img/circle-blue.svg" alt="img">It is a long established fact that a reader will be distracted</p>
+                    <p><img src="./img/circle-blue.svg" alt="img">The readable content</p>
+                    <p><img src="./img/circle-blue.svg" alt="img">There are many variations of passages</p>
+            </div>
+            </a>
+        </div>
+    </div>
+</section> -->
+
+<!-- <section class="testimonial">
+    <div class="container">
+
+        <div class="prev-next-buttons">
+            <a  class="prev-button"><img src="./img/arrow-right.svg" alt=""></a>
+            <a  class="next-button"><img src="./img/arrow-left.svg" alt=""></a>
+        </div>
+
+        <div class="testimonial__heading">
+            <h2 class="testimonial__title">Lorem</h2>
+        </div>
+        <div class="testimonial__row fade">
+            <a href="#!" class="card-testimonial">
+                <img class="card-testimonial__img" src="./img/testimonial-img.png" alt="">
+                <h3 class="testimonial-name">Lorem Ipsum</h3>
+                <div class="card-testimonial__body">
+                <p><img src="./img/circle-blue.svg" alt="img">It is a long established fact that a reader will be distracted</p>
+                <p><img src="./img/circle-blue.svg" alt="img">The readable content</p>
+                <p><img src="./img/circle-blue.svg" alt="img">There are many variations of passages</p>
+            </div>
+            </a>
+        </div>
+
+        <div class="testimonial__row fade">
+            <a href="#!" class="card-testimonial">
+                <img class="card-testimonial__img" src="./img/testimonial-img.png" alt="">
+                <h3 class="testimonial-name">Lorem Ipsum</h3>
+                <div class="card-testimonial__body">
+                <p><img src="./img/circle-blue.svg" alt="img">It is a long established fact that a reader will be distracted</p>
+                <p><img src="./img/circle-blue.svg" alt="img">The readable content</p>
+                <p><img src="./img/circle-blue.svg" alt="img">There are many variations of passages</p>
+            </div>
+            </a>
+        </div>
+
+        <div class="testimonial__row fade">
+            <a href="#!" class="card-testimonial">
+                <img class="card-testimonial__img" src="./img/testimonial-img.png" alt="">
+                <h3 class="testimonial-name">Lorem Ipsum</h3>
+                <div class="card-testimonial__body">
+                    <p><img src="./img/circle-blue.svg" alt="img">It is a long established fact that a reader will be distracted</p>
+                    <p><img src="./img/circle-blue.svg" alt="img">The readable content</p>
+                    <p><img src="./img/circle-blue.svg" alt="img">There are many variations of passages</p>
+            </div>
+            </a>
+        </div>
+    </div> -->
+
+
+    <!-- Current Start -->
+
+
+    <!-- <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div> -->
+
+    <!-- Current And -->
+
+<!-- </section> -->
+
+
+
+
+    <section class="title">
+        <div class="container">
+            <h2 class="title__line-text">Lorem Ipsum is simply</h2>
+            <img class="title__line" src="./img/line.png" alt="">
+
+            <div class="title__row">
+                <div class="title__item">
+                    <img src="./img/number-01.png" alt="">
+                    <h5>Contrary to popular belief, Lorem Ipsum</h5>
+                </div>
+
+                <div class="title__item">
+                    <img src="./img/number-02.png" alt="">
+                    <h5>It was popularised in the 1960s with the release</h5>
+                </div>
+
+                <div class="title__item">
+                    <img src="./img/number-03.png" alt="">
+                    <h5>Random text it has roots in a piece of classical</h5>
+                </div>
+
+                <div class="title__item">
+                    <img src="./img/number-04.png" alt="">
+                    <h5>If you are going to use a passage of Lorem Ipsum</h5>
+                </div>
+
+                <div class="title__item">
+                    <img src="./img/number-05.png" alt="">
+                    <h5>Latin literature from 45 BC, making it over 2000 years old</h5>
+                </div>
+
+                <div class="title__item">
+                    <img src="./img/number-06.png" alt="">
+                    <h5>There are many variations of passages of Lorem Ipsum</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+  <section class="objects">
+      <div class="container">
+          <div class="objects__row">
+              <div class="objects__img">
+                  <img src="./img/objects-card.png" alt="">
+              </div>
+              <div class="objects__text">
+                  <h2 class="objects__title">There are many variations of passages</h2>
+                  <p>of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+
+                  <ul>
+                      <li>Lorem Ipsum</li>
+                      <li>Lorem Ipsum</li>
+                      <li>Lorem Ipsum</li>
+                      <li>Lorem Ipsum</li>
+                      <li>Lorem Ipsum</li>
+                      <li>Lorem Ipsum</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+  <section class="cf">
+    <div class="slide__line-block">
+    <h2 class="slide__line-text">Lorem Ipsum</h2>
+    <img class="slide__line" src="./img/line-gray.png" alt="">
+</div>
+<div class="menu__slide">
+    <div class="menu" lang="0">
+        <label for="slide-item-1">
+            <p class="icon"><img src="./img/id-card 1.svg" alt=""></p>
+            <p class="title">Lorem Ipsum is simply dummy</p>
+        </label>
+    </div>
+    <div class="menu" lang="1">
+        <label for="slide-item-1">
+            <p class="icon"><img src="./img/card-smartphone.svg" alt=""></p>
+            <p class="title">Lorem Ipsum is simply dummy</p>
+        </label>
+    </div>
+    <div class="menu" lang="2">
+        <label for="slide-item-1">
+            <p class="icon"><img src="./img/card-laptop.svg" alt=""></p>
+            <p class="title">Lorem Ipsum is simply dummy</p>
+        </label>
+    </div>
+    <div class="menu" lang="3">
+        <label for="slide-item-1">
+            <p class="icon"><img src="./img/card-chat.svg" alt=""></p>
+            <p class="title">Lorem Ipsum is simply dummy</p>
+        </label>
+    </div>
+    <div class="bar">
+        <div id="slide-bar"></div>
+    </div>
+</div>
+    <div class="slide__line-btn">
+        <img class="slide__line-img" src="./img/line-gray.png" alt="">
+        <button class="slide__btn">Lorem Ipsum</button>
+    </div>
+</section>
+
+
+<section class="benefits">
+    <div class="container">
+        <div class="benefits__heding">
+            
+        </div>
+        <div class="benefits__row">
+            <div class="benefits__item">
+                <img src="./img/Ellipse-4.png" alt="">
+                <h4 class="benefits__item-title">Lorem Ipsum is simply dummy text</h4>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+                <ul>
+                    <li>Lorem Ipsum has been the industry's</li>
+                    <li>Standard dummy text ever since</li>
+                    <li>But also the leap into electronic typesetting</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="benefits__row">
+            <div class="benefits__item">
+                <img src="./img/Ellipse-4.png" alt="">
+                <h4 class="benefits__item-title">Lorem Ipsum is simply dummy text</h4>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+                <ul>
+                    <li>Lorem Ipsum has been the industry's</li>
+                    <li>Standard dummy text ever since</li>
+                    <li>But also the leap into electronic typesetting</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="benefits__row">
+            <div class="benefits__item">
+                <img src="./img/Ellipse-4.png" alt="">
+                <h4 class="benefits__item-title">Lorem Ipsum is simply dummy text</h4>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+                <ul>
+                    <li>Lorem Ipsum has been the industry's 
+                        standard dummy text ever since
+                        But also the leap into electronic typesetting</li>
+                    <li>But also the leap into electronic typesetting</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="benefits__row">
+            <div class="benefits__item">
+                <img src="./img/Ellipse-4.png" alt="">
+                <h4 class="benefits__item-title">Lorem Ipsum simply</h4>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <ul>
+                    <li>Lorem Ipsum has been the industry's</li>
+                    <li>Standard dummy text ever since</li>
+                    <li>But also the leap into electronic typesetting</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="benefits__row">
+            <div class="benefits__item">
+                <img src="./img/Ellipse-4.png" alt="">
+                <h4 class="benefits__item-title">Lorem Ipsum is simply</h4>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <ul>
+                    <li>Lorem Ipsum has been the industry's</li>
+                    <li>Standard dummy text ever since</li>
+                    <li>But also the leap into electronic typesetting</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="card">
+    <div class="container">
+        <div class="card__row">
+            <div class="card__item">
+                <img src="./img/Ellipse-4.png" alt="">
+                <h4 class="card__item-title">Lorem Ipsum 
+                    is simply</h4>
+            </div>
+        </div>
+
+        <div class="card__row">
+            <div class="card__item">
+                <img src="./img/Ellipse-4.png" alt="">
+                <h4 class="card__item-title">Lorem Ipsum 
+                    is simply</h4>
+            </div>
+        </div>
+
+        <div class="card__row">
+            <div class="card__item">
+                <img src="./img/Ellipse-4.png" alt="">
+                <h4 class="card__item-title">Lorem Ipsum 
+                    is simply</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="contacts">
+    <div class="container">
+        <div class="contacts__info">
+            <div class="title">
+                <h2>Lorem Ipsum is simply dummy text</h2>
+            </div>
+        </div>
+
+        <div class="contacts__title-info">
+            <h2>It is a long established fact that a reader</h2>
+            <a href="#!">support@email.com</a>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+        </div>
+
+    
+
+
+    <div id="container">
+        <h2>It is a long established 
+      fact that a reader</h2>
+        
+        
+        <form action="#" method="post" id="contact_form">
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="Name*" name="name" id="name_input" required>
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="E-mail*" name="email" id="email_input" required>
+          </div>
+          <div class="telephone">
+            <label for="name"></label>
+            <input type="text" placeholder="Phone*" name="telephone" id="telephone_input" required>
+          </div>
+
+
+
+   
+<div id="wrapper">
+    <div id="sliderContainer">
+        <div class="tick-slider">
+            <div class="tick-slider-header">
+                <h5><label for="sizeSlider">цена</label></h5>
+                <h5>грн</h5>
+            </div>
+            <div class="tick-slider-value-container">
+                <div id="sizeLabelMin" class="tick-slider-label">0</div>
+                <div id="sizeLabelMax" class="tick-slider-label">7000</div>
+                <div id="sizeValue" class="tick-slider-value"></div>
+            </div>
+            <div class="tick-slider-background"></div>
+                      <div id="sizeProgress" class="tick-slider-progress"></div>
+            <div id="sizeTicks" class="tick-slider-tick-container"></div>
+            <input
+                id="sizeSlider"
+                class="tick-slider-input"
+                type="range"
+                min="0"
+                max="7000"
+                step="500"
+                value="3500"
+                data-tick-step="500"
+                data-tick-id="sizeTicks"
+                data-value-id="sizeValue"
+                data-progress-id="sizeProgress"
+                data-handle-size="18"
+                data-min-label-id="sizeLabelMin"
+                data-max-label-id="sizeLabelMax"
+            />
+        </div>
+    </div>
+</div>
+
+        </form>
+
+    </div>
+</div>
+</section>
+
+
+<section class="page-dark">
+    <div class="wrapper">
+        <footer class="footer">
+            <div class="footer-icons">
+                <a href="#!"><img src="./img/facebook.svg" alt="icon"></a>
+                <a href="#!"><img src="./img/instagram.svg" alt="icon"></a>
+                <a href="#!"><img src="./img/youtube.svg" alt="icon"></a>
+                <a href="#!"><img src="./img/twitter.svg" alt="icon"></a>
+
+
+                <p>© 2020 Vis-A-Vis</p>
+            </div>
+            <div class="footer-nav">
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Lorem</a></li>
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Ipsum</a></li>
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Demmy</a></li>
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Text</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Lorem</a></li>
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Ipsum</a></li>
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Demmy</a></li>
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Text</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Lorem</a></li>
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Ipsum</a></li>
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Demmy</a></li>
+                    <li class="footer-list-item"><a class="footer-list-link" href="#!">Text</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</section>
+
+
+
+
+<!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="./js/script.js "></script>
+  <script src="./js/slider.js"></script>
+  
+  </body>
+</html>
