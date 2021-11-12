@@ -1,0 +1,34 @@
+.contacts {
+  background: $white;
+  padding-top: 160px;
+  padding-bottom: 225px;
+
+  &__title-info {
+    position: absolute;
+    left: 920px;
+    margin-top: 65px;
+
+    h2 {
+      padding-bottom: 40px;
+      width: 304px;
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+    a {
+      cursor: pointer;
+      color: $button-color;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    p {
+      width: 350px;
+      font-weight: 300;
+      line-height: 19px;
+      padding-top: 65px;
+    }
+  }
+}

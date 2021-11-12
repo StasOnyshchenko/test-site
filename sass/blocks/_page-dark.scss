@@ -1,0 +1,50 @@
+.page-dark {
+  padding-top: 80px;
+  background: $white;
+}
+// .wrapper {
+// }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: $dark-gray;
+  padding-bottom: 35px;
+
+  &-icons {
+    margin-top: 50px;
+    margin-left: 125px;
+
+    a {
+      padding-right: 35px;
+    }
+
+    p {
+      padding-top: 115px;
+      color: $white;
+    }
+  }
+
+  &-nav {
+    display: flex;
+    margin-left: 100px;
+    color: $white;
+  }
+
+  &-list {
+    padding-top: 50px;
+
+    li:not(:last-child) {
+      padding-right: 250px;
+    }
+  }
+
+  &-list-item {
+    padding-bottom: 25px;
+  }
+
+  &-list-link {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}

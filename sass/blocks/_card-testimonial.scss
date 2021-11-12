@@ -1,0 +1,81 @@
+.card-testimonial {
+  display: inline-block;
+  max-width: 340px;
+  margin-left: 35px;
+  height: 440px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: $white;
+
+  transition: box-shadow 0.2s ease-in;
+
+  &:hover {
+    box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
+  }
+
+  &__img {
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+}
+
+.testimonial-name {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+  margin-top: -70px;
+}
+
+.card-testimonial__body {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+
+  img {
+    padding-right: 10px;
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+}
+
+// Arrow start
+div.prev-next-buttons {
+  cursor: pointer;
+  position: relative;
+  top: 40%;
+  width: 100%;
+}
+
+div.prev-next-buttons > a {
+  color: $button-color;
+  background-color: $white;
+  border-radius: 10px;
+  min-width: 60px;
+  padding: 15px;
+  text-transform: uppercase;
+
+  transition: box-shadow 0.2s ease-in;
+
+  &:hover {
+    box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
+  }
+}
+
+a.prev-button {
+  top: 270px;
+  left: -60px;
+  position: absolute;
+  text-align: left;
+}
+
+a.next-button {
+  top: 270px;
+  right: 30px;
+  position: absolute;
+  text-align: right;
+}
