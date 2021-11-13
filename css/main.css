@@ -185,6 +185,7 @@ body {
   margin-bottom: 30px;
 }
 .benefits__row li {
+  display: flex;
   width: 340px;
   line-height: 22px;
   font-weight: 300;
@@ -482,6 +483,7 @@ img {
 }
 
 .swiper-slide li {
+  display: flex;
   padding: 5px;
   text-align: left;
   list-style-type: none;
