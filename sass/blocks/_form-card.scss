@@ -1,21 +1,3 @@
-button {
-  overflow: visible;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-input,
-select,
-textarea {
-  color: #5a5a5a;
-  font: inherit;
-  margin: 0;
-}
-
 input {
   line-height: normal;
 }
@@ -220,13 +202,11 @@ textarea {
 // Slider-price
 
 :root {
-  // --yellow: #ffd049;
   --light-yellow: #fdf2d2;
   --orange: #0093e6;
   --light-gray: #e3e4e8;
   --gray: #71738b;
   --light-blue: #7a7c93;
-  // --blue: #34385a;
 
   --slider-handle-size: 14px;
   --slider-handle-border-radius: 2px;

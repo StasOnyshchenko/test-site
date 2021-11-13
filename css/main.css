@@ -133,6 +133,10 @@ body {
   background-color: #f9f9f9;
 }
 
+.header-content {
+  margin-bottom: 35px;
+}
+
 .content {
   background: url(/img/bg.png) no-repeat;
   height: 450px;
@@ -435,10 +439,9 @@ body {
 }
 
 .swiper {
-  padding-left: 17px;
-  padding-right: 20px;
   width: 85%;
   height: 450px;
+  padding: 0 20px 30px 17px;
 }
 
 .swiper-slide {
@@ -448,9 +451,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
-  -webkit-box-shadow: 6px -9px 17px -7px rgba(6, 7, 7, 0.2);
-  -moz-box-shadow: 6px -9px 17px -7px rgba(6, 7, 7, 0.2);
-  box-shadow: 6px -9px 17px -7px rgba(6, 7, 7, 0.2);
+  box-shadow: 0px 12px 14px 3px rgba(34, 60, 80, 0.2);
 }
 
 .swiper-slide-text {
@@ -566,24 +567,6 @@ a.next-button {
   right: 30px;
   position: absolute;
   text-align: right;
-}
-
-button {
-  overflow: visible;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-input,
-select,
-textarea {
-  color: #5a5a5a;
-  font: inherit;
-  margin: 0;
 }
 
 input {
